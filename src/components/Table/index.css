@@ -1,0 +1,33 @@
+html {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+table {
+  border: 1px solid lightgray;
+}
+
+th {
+  border-bottom: 1px solid lightgray;
+  padding: 0 5px;
+}
+
+th:first-child {
+  padding: 0 4px 0 0;
+}
+
+th:not(:last-child) {
+  border-right: 1px solid lightgray;
+}
+
+tbody tr:last-child {
+  border-bottom: 1px solid red;
+}
+
+tfoot {
+  color: gray;
+}
+
+tfoot th {
+  font-weight: normal;
+}
